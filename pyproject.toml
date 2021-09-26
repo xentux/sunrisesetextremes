@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sunrisesetextremes"
+version = "0.1.0"
+description = "Calculate sun rise and set extrema at a given observation point and year."
+authors = ["Your Name <you@example.com>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+skyfield = "^1.39"
+pytz = "^2021.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
